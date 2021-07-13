@@ -26,7 +26,6 @@ public class BookTest {
         assertTrue(new Book() instanceof Product);
         assertTrue(new Book() instanceof Object);
 
-
         assertFalse(new Product() instanceof Book);
         assertTrue(new Product() instanceof Object);
     }
