@@ -21,6 +21,10 @@ public class BookTest {
     }
 
     @Test
+    /**
+     * This test validates that proper inheritance is
+     * setup between product and book
+     */
     public void superClassTest() {
         assertTrue(new Book() instanceof Book);
         assertTrue(new Book() instanceof Product);
